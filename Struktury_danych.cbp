@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Struktury_danych" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Struktury_danych" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Struktury_danych" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="BinaryTree.cpp" />
+		<Unit filename="BinaryTree.h" />
+		<Unit filename="Doubly_Linked_List.cpp" />
+		<Unit filename="Doubly_Linked_List.h" />
+		<Unit filename="List_Element.cpp" />
+		<Unit filename="List_Element.h" />
+		<Unit filename="Table.cpp" />
+		<Unit filename="Table.h" />
+		<Unit filename="functions.hpp" />
+		<Unit filename="generator.cpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="manage_binary_tree.cpp" />
+		<Unit filename="manage_board.cpp" />
+		<Unit filename="manage_list.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
